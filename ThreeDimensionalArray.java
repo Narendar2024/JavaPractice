@@ -7,10 +7,14 @@ public class ThreeDimensionalArray {
                 for(int k=0; k<5; k++){
                     nums[i][j][k] = (int)(Math.random()*10);
                     System.out.print(nums[i][j][k]+"    ");
+                    
                 }
                 System.out.println();
             }
         }
+
+        System.err.println();
+        System.err.println();
 
         for(int i=0; i<3; i++){
             for(int j=0; j<4; j++){
